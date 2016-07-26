@@ -495,4 +495,16 @@
             </reporting>
         </profile>
     </profiles>
+<distributionManagement>
+    <repository>
+      <id>nexus</id>
+      <name>Releases</name>
+      <url>http://192.168.251.21:8081/repository/maven-releases</url>
+    </repository>
+    <snapshotRepository>
+      <id>nexus</id>
+      <name>Snapshot</name>
+      <url>http://192.168.251.21:8081/repository/maven-snapshots</url>
+    </snapshotRepository>
+  </distributionManagement>
 </project>
